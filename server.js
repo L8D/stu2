@@ -53,7 +53,7 @@ const heartbeat = async () => {
       await client.messages.create(twilioMessage)
       console.log('successfully sent twilio message', twilioMessage)
     } else if (action.type === 'set') {
-      await db.setAsync(message.key, message.value)
+      await db.setAsync(action.key, action.value)
     }
   }
 }
