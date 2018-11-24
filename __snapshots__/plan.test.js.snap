@@ -50,7 +50,7 @@ Array [
     "deadline": "12pm",
     "sentAt": "2018-11-23T09:00:00-06:00",
     "type": "outbound",
-    "value": "You need to get out. You have 180 minutes.",
+    "value": "You need to get outside. You have 180 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:4:announcement",

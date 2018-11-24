@@ -21,7 +21,7 @@ module.exports = [
 
   {
     deadline: '12pm',
-    objective: 'get out'
+    objective: 'get outside'
   },
 
   {
