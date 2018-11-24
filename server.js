@@ -40,7 +40,7 @@ const heartbeat = async () => {
     timezone
   }
 
-  for (const action of handleMessage(convertedTasks, message, db)) {
+  for (const action of await handleMessage(convertedTasks, message, db)) {
     console.log('handling action', action)
     if (action.type === 'outbound') {
       const twilioMessage = {
