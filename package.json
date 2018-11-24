@@ -9,7 +9,6 @@
     "bluebird": "^3.5.3",
     "husky": "^1.2.0",
     "lint-staged": "^8.1.0",
-    "lodash.flatten": "^4.4.0",
     "lodash.sortby": "^4.7.0",
     "moment-timezone": "^0.5.23",
     "redis": "^2.8.0",
