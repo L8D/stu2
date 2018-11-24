@@ -1,24 +1,25 @@
 require('dotenv').config()
 
+const express = require('express')
 const Promise = require('bluebird')
 const redis = require('redis')
 const moment = require('moment-timezone')
+const twilio = require('twilio')
+
+const tasks = require('./tasks')
+const { parseTaskDeadlines, handleMessage } = require('./processor')
+
 Promise.promisifyAll(redis.RedisClient.prototype)
 Promise.promisifyAll(redis.Multi.prototype)
-const client = require('twilio')(
-  process.env.TWILIO_ACCOUNT_SID,
-  process.env.TWILIO_AUTH_TOKEN
-)
 
 const from = process.env.STU_SENDER
 const to = process.env.STU_RECEIVER
+const port = process.env.PORT
 
-const {
-  parseTaskDeadlines,
-  handleMessage
-} = require('./processor')
-
-const tasks = require('./tasks')
+const client = twilio(
+  process.env.TWILIO_ACCOUNT_SID,
+  process.env.TWILIO_AUTH_TOKEN
+)
 
 const timezone = process.env.STU_TIMEZONE
 
@@ -40,6 +41,7 @@ const heartbeat = async () => {
   }
 
   for (const action of handleMessage(convertedTasks, message, db)) {
+    console.log('handling action', action)
     if (action.type === 'outbound') {
       const twilioMessage = {
         body: message.value,
@@ -48,12 +50,18 @@ const heartbeat = async () => {
       }
 
       await client.messages.create(twilioMessage)
-      console.log('successfully sent ' + twilioMessage)
+      console.log('twilio message', twilioMessage)
     } else if (action.type === 'set') {
       await db.setAsync(message.key, message.value)
     }
   }
 }
+
+const app = express()
+
+app.listen(process.env.PORT, () => {
+  console.log(`listening on port ${port}`)
+})
 
 setInterval(async () => {
   try {
