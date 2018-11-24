@@ -44,7 +44,7 @@ const heartbeat = async () => {
     console.log('handling action', action)
     if (action.type === 'outbound') {
       const twilioMessage = {
-        body: message.value,
+        body: action.value,
         from,
         to
       }
