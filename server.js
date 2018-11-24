@@ -41,15 +41,24 @@ const heartbeat = async () => {
 
   for (const action of handleMessage(convertedTasks, message, db)) {
     if (action.type === 'outbound') {
-      await client.messages.create({
+      const twilioMessage = {
         body: message.value,
         from,
         to
-      })
+      }
+
+      await client.messages.create(twilioMessage)
+      console.log('successfully sent ' + twilioMessage)
     } else if (action.type === 'set') {
       await db.setAsync(message.key, message.value)
     }
   }
 }
 
-setInterval(heartbeat, 60 * 1000)
+setInterval(async () => {
+  try {
+    await heartbeat()
+  } catch (err) {
+    console.error(err)
+  }
+}, 60 * 1000)
