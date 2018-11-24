@@ -12,7 +12,7 @@ exports.parseTaskDeadlines = (tasks, options) => {
     throw new Error('date and timezone required')
   }
 
-  return tasks.map(({deadline, objective}) => ({
+  return tasks.map(({ deadline, objective }) => ({
     deadline,
     finishBy: moment.tz(
       `${date} ${deadline}`,

@@ -1,6 +1,7 @@
+/* globals describe, it, expect */
+
 const Promise = require('bluebird')
 const moment = require('moment-timezone')
-const flatten = require('lodash.flatten')
 
 const {
   parseTaskDeadlines,
@@ -76,7 +77,6 @@ const exampleTasks = [
 
 describe('executor', () => {
   it('should advance the state given the example plan', async () => {
-    const timeFormats = ['h:mma', 'ha']
     const date = '2018-11-23'
     const timezone = 'America/Chicago'
 
