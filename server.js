@@ -5,6 +5,13 @@ const redis = require('redis')
 const moment = require('moment-timezone')
 Promise.promisifyAll(redis.RedisClient.prototype)
 Promise.promisifyAll(redis.Multi.prototype)
+const client = require('twilio')(
+  process.env.TWILIO_ACCOUNT_SID,
+  process.env.TWILIO_AUTH_TOKEN
+)
+
+const from = process.env.STU_SENDER
+const to = process.env.STU_RECEIVER
 
 const {
   parseTaskDeadlines,
@@ -34,8 +41,11 @@ const heartbeat = async () => {
 
   for (const action of handleMessage(convertedTasks, message, db)) {
     if (action.type === 'outbound') {
-      console.log(message.value)
-      // TODO: twilio send
+      await client.messages.create({
+        body: message.value,
+        from,
+        to
+      })
     } else if (action.type === 'set') {
       await db.setAsync(message.key, message.value)
     }
