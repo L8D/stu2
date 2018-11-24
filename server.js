@@ -49,8 +49,9 @@ const heartbeat = async () => {
         to
       }
 
+      console.log('sending twilio message', twilioMessage)
       await client.messages.create(twilioMessage)
-      console.log('twilio message', twilioMessage)
+      console.log('successfully sent twilio message', twilioMessage)
     } else if (action.type === 'set') {
       await db.setAsync(message.key, message.value)
     }
