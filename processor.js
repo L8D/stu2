@@ -23,7 +23,7 @@ exports.parseTaskDeadlines = (tasks, options) => {
   }))
 }
 
-exports.process = async (tasks, message, db) => {
+exports.handleMessage = async (tasks, message, db) => {
   const sortedTasks = sortBy(tasks, (t) => +t.finishBy)
   const now = moment.tz(message.createdAt, message.timezone)
   const date = now.format().slice(0, 10)

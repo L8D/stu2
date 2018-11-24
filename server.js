@@ -8,7 +8,7 @@ Promise.promisifyAll(redis.Multi.prototype)
 
 const {
   parseTaskDeadlines,
-  process
+  handleMessage
 } = require('./processor')
 
 const tasks = require('./tasks')
@@ -32,7 +32,7 @@ const heartbeat = async () => {
     timezone
   }
 
-  for (const action of process(convertedTasks, message, db)) {
+  for (const action of handleMessage(convertedTasks, message, db)) {
     if (action.type === 'outbound') {
       console.log(message.value)
       // TODO: twilio send

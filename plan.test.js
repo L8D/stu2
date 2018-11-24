@@ -5,7 +5,7 @@ const moment = require('moment-timezone')
 
 const {
   parseTaskDeadlines,
-  process
+  handleMessage
 } = require('./processor')
 
 const exampleTasks = require('./tasks')
@@ -42,7 +42,7 @@ describe('executor', () => {
     const results = []
 
     for (const message of heartbeats) {
-      for (const action of await process(tasks, message, db)) {
+      for (const action of await handleMessage(tasks, message, db)) {
         results.push(action)
 
         // statefully handle 'set' operations between heartbeats
