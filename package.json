@@ -1,0 +1,18 @@
+{
+  "name": "stu2",
+  "version": "1.0.0",
+  "description": "A bot",
+  "main": "index.js",
+  "author": "Tenor Biel <tenorbiel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "lodash.flatten": "^4.4.0",
+    "lodash.sortby": "^4.7.0",
+    "moment-timezone": "^0.5.23",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

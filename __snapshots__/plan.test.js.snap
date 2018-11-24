@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`executor should advance the state given the example plan 1`] = `
+Array [
+  Object {
+    "deadline": "7am",
+    "sentAt": "2018-11-23T06:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to wake up. You have 60 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:0:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "7:30am",
+    "sentAt": "2018-11-23T07:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to take theanine. You have 30 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:1:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "8am",
+    "sentAt": "2018-11-23T07:30:00-06:00",
+    "type": "outbound",
+    "value": "You need to shower. You have 30 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:2:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "9am",
+    "sentAt": "2018-11-23T08:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to meditate. You have 60 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:3:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "12pm",
+    "sentAt": "2018-11-23T09:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to get out. You have 180 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:4:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "1pm",
+    "sentAt": "2018-11-23T12:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to eat lunch. You have 60 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:5:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "1:05pm",
+    "sentAt": "2018-11-23T13:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to log lunch. You have 5 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:6:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "6pm",
+    "sentAt": "2018-11-23T13:05:00-06:00",
+    "type": "outbound",
+    "value": "You need to form a plan for getting home and eating dinner. You have 295 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:7:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "8pm",
+    "sentAt": "2018-11-23T18:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to go home and eat dinner. You have 120 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:8:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "8:20pm",
+    "sentAt": "2018-11-23T20:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to write. You have 20 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:9:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "8:40pm",
+    "sentAt": "2018-11-23T20:20:00-06:00",
+    "type": "outbound",
+    "value": "You need to draw. You have 20 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:10:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "9pm",
+    "sentAt": "2018-11-23T20:40:00-06:00",
+    "type": "outbound",
+    "value": "You need to wash. You have 20 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:11:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "9:30pm",
+    "sentAt": "2018-11-23T21:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to meditate. You have 30 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:12:announcement",
+    "type": "set",
+    "value": true,
+  },
+]
+`;
