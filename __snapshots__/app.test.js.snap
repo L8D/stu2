@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app should handle a heartbeat 1`] = `
+Object {
+  "loggerCalls": Array [
+    Array [
+      "handling action",
+      Object {
+        "deadline": "6pm",
+        "sentAt": "2018-11-28T17:18:56-06:00",
+        "type": "outbound",
+        "value": "You need to form a plan for getting home and eating dinner. You have 41 minutes.",
+      },
+    ],
+    Array [
+      "sending twilio message",
+      Object {
+        "body": "You need to form a plan for getting home and eating dinner. You have 41 minutes.",
+        "from": "+15125807478",
+        "to": "+18324540603",
+      },
+    ],
+    Array [
+      "successfully sent twilio message",
+      Object {
+        "body": "You need to form a plan for getting home and eating dinner. You have 41 minutes.",
+        "from": "+15125807478",
+        "to": "+18324540603",
+      },
+    ],
+    Array [
+      "handling action",
+      Object {
+        "key": "2018-11-28:tasks:7:announcement",
+        "type": "set",
+        "value": true,
+      },
+    ],
+  ],
+  "redisGetCalls": Array [
+    Array [
+      "2018-11-28:tasks:7:announcement",
+    ],
+  ],
+  "redisSetCalls": Array [
+    Array [
+      "2018-11-28:tasks:7:announcement",
+      true,
+    ],
+  ],
+  "twilioCalls": Array [
+    Array [
+      Object {
+        "body": "You need to form a plan for getting home and eating dinner. You have 41 minutes.",
+        "from": "+15125807478",
+        "to": "+18324540603",
+      },
+    ],
+  ],
+}
+`;
