@@ -24,7 +24,9 @@ exports.handleHeartbeat = async ({
     timezone
   }
 
-  for (const action of await handleMessage(convertedTasks, message, redisClient)) {
+  const actions = await handleMessage(convertedTasks, message, redisClient)
+
+  for (const action of actions) {
     logger.log('handling action', action)
     if (action.type === 'outbound') {
       const twilioMessage = {
