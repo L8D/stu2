@@ -35,32 +35,32 @@ module.exports = [
   },
 
   {
-    deadline: '6pm',
+    deadline: '4pm',
     objective: 'form a plan for getting home and eating dinner'
   },
 
   {
-    deadline: '8pm',
+    deadline: '7pm',
     objective: 'go home and eat dinner'
   },
 
   {
-    deadline: '8:20pm',
+    deadline: '7:20pm',
     objective: 'write'
   },
 
   {
-    deadline: '8:40pm',
+    deadline: '7:40pm',
     objective: 'draw'
   },
 
   {
-    deadline: '9pm',
+    deadline: '8pm',
     objective: 'wash'
   },
 
   {
-    deadline: '9:30pm',
+    deadline: '8:30pm',
     objective: 'meditate'
   }
 ]
