@@ -1,27 +1,32 @@
 module.exports = [
   {
-    deadline: '7am',
+    deadline: '6am',
     objective: 'wake up'
   },
 
   {
-    deadline: '7:30am',
+    deadline: '6:30am',
     objective: 'take theanine'
   },
 
   {
-    deadline: '8am',
-    objective: 'shower'
+    deadline: '7am',
+    objective: 'wash'
   },
 
   {
-    deadline: '9am',
+    deadline: '8am',
     objective: 'meditate'
   },
 
   {
-    deadline: '12pm',
+    deadline: '11am',
     objective: 'get outside'
+  },
+
+  {
+    deadline: '12pm',
+    objective: 'form a plan for lunch'
   },
 
   {
@@ -35,32 +40,32 @@ module.exports = [
   },
 
   {
-    deadline: '4pm',
+    deadline: '3pm',
     objective: 'form a plan for getting home and eating dinner'
   },
 
   {
-    deadline: '7pm',
+    deadline: '6:30pm',
     objective: 'go home and eat dinner'
   },
 
   {
-    deadline: '7:20pm',
+    deadline: '7:00pm',
     objective: 'write'
   },
 
   {
-    deadline: '7:40pm',
+    deadline: '7:20pm',
     objective: 'draw'
   },
 
   {
-    deadline: '8pm',
+    deadline: '7:40pm',
     objective: 'wash'
   },
 
   {
-    deadline: '8:30pm',
+    deadline: '8:00pm',
     objective: 'meditate'
   }
 ]

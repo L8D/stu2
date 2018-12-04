@@ -3,19 +3,8 @@
 exports[`executor should advance the state given the example plan 1`] = `
 Array [
   Object {
-    "deadline": "7am",
+    "deadline": "6:30am",
     "sentAt": "2018-11-23T06:00:00-06:00",
-    "type": "outbound",
-    "value": "You need to wake up. You have 60 minutes.",
-  },
-  Object {
-    "key": "2018-11-23:tasks:0:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "7:30am",
-    "sentAt": "2018-11-23T07:00:00-06:00",
     "type": "outbound",
     "value": "You need to take theanine. You have 30 minutes.",
   },
@@ -25,10 +14,10 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "8am",
-    "sentAt": "2018-11-23T07:30:00-06:00",
+    "deadline": "7am",
+    "sentAt": "2018-11-23T06:30:00-06:00",
     "type": "outbound",
-    "value": "You need to shower. You have 30 minutes.",
+    "value": "You need to wash. You have 30 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:2:announcement",
@@ -36,8 +25,8 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "9am",
-    "sentAt": "2018-11-23T08:00:00-06:00",
+    "deadline": "8am",
+    "sentAt": "2018-11-23T07:00:00-06:00",
     "type": "outbound",
     "value": "You need to meditate. You have 60 minutes.",
   },
@@ -47,13 +36,24 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "12pm",
-    "sentAt": "2018-11-23T09:00:00-06:00",
+    "deadline": "11am",
+    "sentAt": "2018-11-23T08:00:00-06:00",
     "type": "outbound",
     "value": "You need to get outside. You have 180 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:4:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "12pm",
+    "sentAt": "2018-11-23T11:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to form a plan for lunch. You have 60 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:5:announcement",
     "type": "set",
     "value": true,
   },
@@ -64,7 +64,7 @@ Array [
     "value": "You need to eat lunch. You have 60 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:5:announcement",
+    "key": "2018-11-23:tasks:6:announcement",
     "type": "set",
     "value": true,
   },
@@ -75,26 +75,15 @@ Array [
     "value": "You need to log lunch. You have 5 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:6:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "4pm",
-    "sentAt": "2018-11-23T13:05:00-06:00",
-    "type": "outbound",
-    "value": "You need to form a plan for getting home and eating dinner. You have 175 minutes.",
-  },
-  Object {
     "key": "2018-11-23:tasks:7:announcement",
     "type": "set",
     "value": true,
   },
   Object {
-    "deadline": "7pm",
-    "sentAt": "2018-11-23T16:00:00-06:00",
+    "deadline": "3pm",
+    "sentAt": "2018-11-23T13:05:00-06:00",
     "type": "outbound",
-    "value": "You need to go home and eat dinner. You have 180 minutes.",
+    "value": "You need to form a plan for getting home and eating dinner. You have 115 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:8:announcement",
@@ -102,10 +91,10 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "7:20pm",
-    "sentAt": "2018-11-23T19:00:00-06:00",
+    "deadline": "6:30pm",
+    "sentAt": "2018-11-23T15:00:00-06:00",
     "type": "outbound",
-    "value": "You need to write. You have 20 minutes.",
+    "value": "You need to go home and eat dinner. You have 210 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:9:announcement",
@@ -113,10 +102,10 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "7:40pm",
-    "sentAt": "2018-11-23T19:20:00-06:00",
+    "deadline": "7:00pm",
+    "sentAt": "2018-11-23T18:30:00-06:00",
     "type": "outbound",
-    "value": "You need to draw. You have 20 minutes.",
+    "value": "You need to write. You have 30 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:10:announcement",
@@ -124,10 +113,10 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "8pm",
-    "sentAt": "2018-11-23T19:40:00-06:00",
+    "deadline": "7:20pm",
+    "sentAt": "2018-11-23T19:00:00-06:00",
     "type": "outbound",
-    "value": "You need to wash. You have 20 minutes.",
+    "value": "You need to draw. You have 20 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:11:announcement",
@@ -135,13 +124,24 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "8:30pm",
-    "sentAt": "2018-11-23T20:00:00-06:00",
+    "deadline": "7:40pm",
+    "sentAt": "2018-11-23T19:20:00-06:00",
     "type": "outbound",
-    "value": "You need to meditate. You have 30 minutes.",
+    "value": "You need to wash. You have 20 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:12:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "8:00pm",
+    "sentAt": "2018-11-23T19:40:00-06:00",
+    "type": "outbound",
+    "value": "You need to meditate. You have 20 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:13:announcement",
     "type": "set",
     "value": true,
   },
