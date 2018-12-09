@@ -8,7 +8,7 @@ const {
   handleMessage
 } = require('./processor')
 
-const exampleTasks = require('./tasks')
+const { daily: exampleTasks } = require('./schedules')
 
 describe('executor', () => {
   it('should advance the state given the example plan', async () => {

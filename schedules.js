@@ -1,4 +1,5 @@
-module.exports = [
+exports.timezone = 'America/New_York'
+exports.daily = [
   {
     deadline: '6am',
     objective: 'wake up'

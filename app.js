@@ -1,7 +1,6 @@
-const tasks = require('./tasks')
+const { daily: tasks, timezone } = require('./schedules')
 const { handleMessage, parseTaskDeadlines } = require('./processor')
 
-const timezone = process.env.STU_TIMEZONE
 const from = process.env.STU_SENDER
 const to = process.env.STU_RECEIVER
 

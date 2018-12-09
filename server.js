@@ -18,7 +18,8 @@ const twilioClient = twilio(
   process.env.TWILIO_AUTH_TOKEN
 )
 
-const timezone = process.env.STU_TIMEZONE
+// TODO: use schedule-dependent timezones
+const timezone = require('./schedules').timezone
 
 const redisClient = redis.createClient(process.env.STU_REDIS_URL)
 
