@@ -31,7 +31,7 @@ Object {
     Array [
       "handling action",
       Object {
-        "key": "2018-11-28:tasks:9:announcement",
+        "key": "2018-11-28:tasks:10:announcement",
         "type": "set",
         "value": true,
       },
@@ -39,12 +39,12 @@ Object {
   ],
   "redisGetCalls": Array [
     Array [
-      "2018-11-28:tasks:9:announcement",
+      "2018-11-28:tasks:10:announcement",
     ],
   ],
   "redisSetCalls": Array [
     Array [
-      "2018-11-28:tasks:9:announcement",
+      "2018-11-28:tasks:10:announcement",
       true,
     ],
   ],

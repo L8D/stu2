@@ -15,8 +15,13 @@ module.exports = [
   },
 
   {
-    deadline: '8am',
+    deadline: '7:30am',
     objective: 'meditate'
+  },
+
+  {
+    deadline: '8am',
+    objective: 'read RC wiki'
   },
 
   {
@@ -26,7 +31,7 @@ module.exports = [
 
   {
     deadline: '12pm',
-    objective: 'form a plan for lunch'
+    objective: 'plan lunch'
   },
 
   {
@@ -67,5 +72,10 @@ module.exports = [
   {
     deadline: '8:00pm',
     objective: 'meditate'
+  },
+
+  {
+    deadline: '8:30pm',
+    objective: 'read a book'
   }
 ]

@@ -25,13 +25,24 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "8am",
+    "deadline": "7:30am",
     "sentAt": "2018-11-23T07:00:00-06:00",
     "type": "outbound",
-    "value": "You need to meditate. You have 60 minutes.",
+    "value": "You need to meditate. You have 30 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:3:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "8am",
+    "sentAt": "2018-11-23T07:30:00-06:00",
+    "type": "outbound",
+    "value": "You need to read RC wiki. You have 30 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:4:announcement",
     "type": "set",
     "value": true,
   },
@@ -42,7 +53,7 @@ Array [
     "value": "You need to get outside. You have 180 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:4:announcement",
+    "key": "2018-11-23:tasks:5:announcement",
     "type": "set",
     "value": true,
   },
@@ -50,10 +61,10 @@ Array [
     "deadline": "12pm",
     "sentAt": "2018-11-23T11:00:00-06:00",
     "type": "outbound",
-    "value": "You need to form a plan for lunch. You have 60 minutes.",
+    "value": "You need to plan lunch. You have 60 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:5:announcement",
+    "key": "2018-11-23:tasks:6:announcement",
     "type": "set",
     "value": true,
   },
@@ -64,7 +75,7 @@ Array [
     "value": "You need to eat lunch. You have 60 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:6:announcement",
+    "key": "2018-11-23:tasks:7:announcement",
     "type": "set",
     "value": true,
   },
@@ -75,7 +86,7 @@ Array [
     "value": "You need to log lunch. You have 5 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:7:announcement",
+    "key": "2018-11-23:tasks:8:announcement",
     "type": "set",
     "value": true,
   },
@@ -86,7 +97,7 @@ Array [
     "value": "You need to form a plan for getting home and eating dinner. You have 115 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:8:announcement",
+    "key": "2018-11-23:tasks:9:announcement",
     "type": "set",
     "value": true,
   },
@@ -97,7 +108,7 @@ Array [
     "value": "You need to go home and eat dinner. You have 210 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:9:announcement",
+    "key": "2018-11-23:tasks:10:announcement",
     "type": "set",
     "value": true,
   },
@@ -108,7 +119,7 @@ Array [
     "value": "You need to write. You have 30 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:10:announcement",
+    "key": "2018-11-23:tasks:11:announcement",
     "type": "set",
     "value": true,
   },
@@ -119,7 +130,7 @@ Array [
     "value": "You need to draw. You have 20 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:11:announcement",
+    "key": "2018-11-23:tasks:12:announcement",
     "type": "set",
     "value": true,
   },
@@ -130,7 +141,7 @@ Array [
     "value": "You need to wash. You have 20 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:12:announcement",
+    "key": "2018-11-23:tasks:13:announcement",
     "type": "set",
     "value": true,
   },
@@ -141,7 +152,18 @@ Array [
     "value": "You need to meditate. You have 20 minutes.",
   },
   Object {
-    "key": "2018-11-23:tasks:13:announcement",
+    "key": "2018-11-23:tasks:14:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "8:30pm",
+    "sentAt": "2018-11-23T20:00:00-06:00",
+    "type": "outbound",
+    "value": "You need to read a book. You have 30 minutes.",
+  },
+  Object {
+    "key": "2018-11-23:tasks:15:announcement",
     "type": "set",
     "value": true,
   },
