@@ -9,13 +9,13 @@ Object {
         "deadline": "6:30pm",
         "sentAt": "2018-11-28T18:18:56-05:00",
         "type": "outbound",
-        "value": "You need to go home and eat dinner. You have 11 minutes.",
+        "value": "You need to eat dinner. You have 11 minutes.",
       },
     ],
     Array [
       "sending twilio message",
       Object {
-        "body": "You need to go home and eat dinner. You have 11 minutes.",
+        "body": "You need to eat dinner. You have 11 minutes.",
         "from": "+15125807478",
         "to": "+18324540603",
       },
@@ -23,7 +23,7 @@ Object {
     Array [
       "successfully sent twilio message",
       Object {
-        "body": "You need to go home and eat dinner. You have 11 minutes.",
+        "body": "You need to eat dinner. You have 11 minutes.",
         "from": "+15125807478",
         "to": "+18324540603",
       },
@@ -31,7 +31,7 @@ Object {
     Array [
       "handling action",
       Object {
-        "key": "2018-11-28:tasks:10:announcement",
+        "key": "2018-11-28:tasks:17:announcement",
         "type": "set",
         "value": true,
       },
@@ -39,19 +39,19 @@ Object {
   ],
   "redisGetCalls": Array [
     Array [
-      "2018-11-28:tasks:10:announcement",
+      "2018-11-28:tasks:17:announcement",
     ],
   ],
   "redisSetCalls": Array [
     Array [
-      "2018-11-28:tasks:10:announcement",
+      "2018-11-28:tasks:17:announcement",
       true,
     ],
   ],
   "twilioCalls": Array [
     Array [
       Object {
-        "body": "You need to go home and eat dinner. You have 11 minutes.",
+        "body": "You need to eat dinner. You have 11 minutes.",
         "from": "+15125807478",
         "to": "+18324540603",
       },
