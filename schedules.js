@@ -5,7 +5,7 @@ const goals = [
   'stu',
   'ghostwriter',
   'infrastructure',
-  'dat',
+  'dat; hyperledger fabric',
   'sudomesh'
 ]
 

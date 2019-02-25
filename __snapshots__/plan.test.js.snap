@@ -50,7 +50,7 @@ Array [
     "deadline": "8:15am",
     "sentAt": "2018-11-23T08:00:00-06:00",
     "type": "outbound",
-    "value": "You need to hack on dat. You have 15 minutes.",
+    "value": "You need to hack on dat; hyperledger fabric. You have 15 minutes.",
   },
   Object {
     "key": "2018-11-23:tasks:5:announcement",
