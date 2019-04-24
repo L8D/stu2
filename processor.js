@@ -52,9 +52,9 @@ exports.handleMessage = async (tasks, message, db) => {
     const remainingMinutes = currentTask.finishBy.diff(now, 'minutes')
 
     const message = [
-      `You need to ${currentTask.objective}.`,
-      `You have ${remainingMinutes} minutes.`
-    ].join(' ')
+      currentTask.objective,
+      `${remainingMinutes} minutes`
+    ].join(' - ')
 
     return [
       {

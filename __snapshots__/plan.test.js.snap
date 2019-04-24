@@ -6,7 +6,7 @@ Array [
     "deadline": "6:15",
     "sentAt": "2018-11-23T06:00:00-06:00",
     "type": "outbound",
-    "value": "You need to take theanine. You have 15 minutes.",
+    "value": "take theanine - 15 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:1:announcement",
@@ -17,7 +17,7 @@ Array [
     "deadline": "6:30am",
     "sentAt": "2018-11-23T06:15:00-06:00",
     "type": "outbound",
-    "value": "You need to wash. You have 15 minutes.",
+    "value": "wash - 15 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:2:announcement",
@@ -28,7 +28,7 @@ Array [
     "deadline": "7:45am",
     "sentAt": "2018-11-23T06:30:00-06:00",
     "type": "outbound",
-    "value": "You need to meditate. You have 75 minutes.",
+    "value": "meditate - 75 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:3:announcement",
@@ -39,7 +39,7 @@ Array [
     "deadline": "8am",
     "sentAt": "2018-11-23T07:45:00-06:00",
     "type": "outbound",
-    "value": "You need to hack on sudomesh. You have 15 minutes.",
+    "value": "hack on sudomesh - 15 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:4:announcement",
@@ -50,7 +50,7 @@ Array [
     "deadline": "8:15am",
     "sentAt": "2018-11-23T08:00:00-06:00",
     "type": "outbound",
-    "value": "You need to hack on dat; hyperledger fabric. You have 15 minutes.",
+    "value": "hack on dat; hyperledger fabric - 15 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:5:announcement",
@@ -61,7 +61,7 @@ Array [
     "deadline": "8:30am",
     "sentAt": "2018-11-23T08:15:00-06:00",
     "type": "outbound",
-    "value": "You need to get ready leave. You have 15 minutes.",
+    "value": "get ready leave - 15 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:6:announcement",
@@ -72,7 +72,7 @@ Array [
     "deadline": "8:55am",
     "sentAt": "2018-11-23T08:30:00-06:00",
     "type": "outbound",
-    "value": "You need to catch the 8:55am C train towards 168 St. You have 25 minutes.",
+    "value": "catch the 8:55am C train towards 168 St - 25 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:7:announcement",
@@ -83,7 +83,7 @@ Array [
     "deadline": "10:15am",
     "sentAt": "2018-11-23T08:55:00-06:00",
     "type": "outbound",
-    "value": "You need to hack on infrastructure. You have 80 minutes.",
+    "value": "hack on infrastructure - 80 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:8:announcement",
@@ -94,7 +94,7 @@ Array [
     "deadline": "11am",
     "sentAt": "2018-11-23T10:15:00-06:00",
     "type": "outbound",
-    "value": "You need to hack on ghostwriter. You have 45 minutes.",
+    "value": "hack on ghostwriter - 45 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:9:announcement",
@@ -105,7 +105,7 @@ Array [
     "deadline": "12pm",
     "sentAt": "2018-11-23T11:00:00-06:00",
     "type": "outbound",
-    "value": "You need to plan lunch. You have 60 minutes.",
+    "value": "plan lunch - 60 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:10:announcement",
@@ -116,7 +116,7 @@ Array [
     "deadline": "1pm",
     "sentAt": "2018-11-23T12:00:00-06:00",
     "type": "outbound",
-    "value": "You need to eat lunch. You have 60 minutes.",
+    "value": "eat lunch - 60 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:11:announcement",
@@ -127,7 +127,7 @@ Array [
     "deadline": "1:05pm",
     "sentAt": "2018-11-23T13:00:00-06:00",
     "type": "outbound",
-    "value": "You need to log lunch. You have 5 minutes.",
+    "value": "log lunch - 5 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:12:announcement",
@@ -138,7 +138,7 @@ Array [
     "deadline": "1:45pm",
     "sentAt": "2018-11-23T13:05:00-06:00",
     "type": "outbound",
-    "value": "You need to hack on stu. You have 40 minutes.",
+    "value": "hack on stu - 40 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:13:announcement",
@@ -149,7 +149,7 @@ Array [
     "deadline": "2:45pm",
     "sentAt": "2018-11-23T13:45:00-06:00",
     "type": "outbound",
-    "value": "You need to participate in PLP. You have 60 minutes.",
+    "value": "participate in PLP - 60 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:14:announcement",
@@ -160,7 +160,7 @@ Array [
     "deadline": "5:00pm",
     "sentAt": "2018-11-23T14:45:00-06:00",
     "type": "outbound",
-    "value": "You need to hack on anki. You have 135 minutes.",
+    "value": "hack on anki - 135 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:15:announcement",
@@ -171,7 +171,7 @@ Array [
     "deadline": "5:15pm",
     "sentAt": "2018-11-23T17:00:00-06:00",
     "type": "outbound",
-    "value": "You need to form a plan for eating dinner. You have 15 minutes.",
+    "value": "form a plan for eating dinner - 15 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:16:announcement",
@@ -182,7 +182,7 @@ Array [
     "deadline": "6:30pm",
     "sentAt": "2018-11-23T17:15:00-06:00",
     "type": "outbound",
-    "value": "You need to eat dinner. You have 75 minutes.",
+    "value": "eat dinner - 75 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:17:announcement",
@@ -193,7 +193,7 @@ Array [
     "deadline": "7:30pm",
     "sentAt": "2018-11-23T18:30:00-06:00",
     "type": "outbound",
-    "value": "You need to go home. You have 60 minutes.",
+    "value": "go home - 60 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:18:announcement",
@@ -204,7 +204,7 @@ Array [
     "deadline": "8:00pm",
     "sentAt": "2018-11-23T19:30:00-06:00",
     "type": "outbound",
-    "value": "You need to write. You have 30 minutes.",
+    "value": "write - 30 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:19:announcement",
@@ -215,7 +215,7 @@ Array [
     "deadline": "8:20pm",
     "sentAt": "2018-11-23T20:00:00-06:00",
     "type": "outbound",
-    "value": "You need to draw. You have 20 minutes.",
+    "value": "draw - 20 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:20:announcement",
@@ -226,7 +226,7 @@ Array [
     "deadline": "8:40pm",
     "sentAt": "2018-11-23T20:20:00-06:00",
     "type": "outbound",
-    "value": "You need to wash. You have 20 minutes.",
+    "value": "wash - 20 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:21:announcement",
@@ -237,7 +237,7 @@ Array [
     "deadline": "9:00pm",
     "sentAt": "2018-11-23T20:40:00-06:00",
     "type": "outbound",
-    "value": "You need to meditate. You have 20 minutes.",
+    "value": "meditate - 20 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:22:announcement",
@@ -248,7 +248,7 @@ Array [
     "deadline": "9:30pm",
     "sentAt": "2018-11-23T21:00:00-06:00",
     "type": "outbound",
-    "value": "You need to read a book. You have 30 minutes.",
+    "value": "read a book - 30 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:23:announcement",

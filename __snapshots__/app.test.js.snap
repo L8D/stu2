@@ -9,13 +9,13 @@ Object {
         "deadline": "6:30pm",
         "sentAt": "2018-11-28T18:18:56-05:00",
         "type": "outbound",
-        "value": "You need to eat dinner. You have 11 minutes.",
+        "value": "eat dinner - 11 minutes",
       },
     ],
     Array [
       "sending twilio message",
       Object {
-        "body": "You need to eat dinner. You have 11 minutes.",
+        "body": "eat dinner - 11 minutes",
         "from": "+15125807478",
         "to": "+18324540603",
       },
@@ -23,7 +23,7 @@ Object {
     Array [
       "successfully sent twilio message",
       Object {
-        "body": "You need to eat dinner. You have 11 minutes.",
+        "body": "eat dinner - 11 minutes",
         "from": "+15125807478",
         "to": "+18324540603",
       },
@@ -51,7 +51,7 @@ Object {
   "twilioCalls": Array [
     Array [
       Object {
-        "body": "You need to eat dinner. You have 11 minutes.",
+        "body": "eat dinner - 11 minutes",
         "from": "+15125807478",
         "to": "+18324540603",
       },
