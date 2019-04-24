@@ -50,10 +50,15 @@ exports.handleMessage = async (tasks, message, db) => {
     }
 
     const remainingMinutes = currentTask.finishBy.diff(now, 'minutes')
+    const remainingHours = Math.floor(remainingMinutes / 60)
 
     const message = [
       currentTask.objective,
-      `${remainingMinutes} minutes`
+      remainingHours > 0 ? (
+        `${remainingHours}hr ${remainingMinutes % 60}min`
+      ) : (
+        `${remainingMinutes}min`
+      )
     ].join(' - ')
 
     return [
