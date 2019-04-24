@@ -3,10 +3,21 @@
 exports[`executor should advance the state given the example plan 1`] = `
 Array [
   Object {
-    "deadline": "6:15",
+    "deadline": "7am",
     "sentAt": "2018-11-23T06:00:00-06:00",
     "type": "outbound",
-    "value": "take theanine - 15 minutes",
+    "value": "wake up - 60 minutes",
+  },
+  Object {
+    "key": "2018-11-23:tasks:0:announcement",
+    "type": "set",
+    "value": true,
+  },
+  Object {
+    "deadline": "7:15am",
+    "sentAt": "2018-11-23T07:00:00-06:00",
+    "type": "outbound",
+    "value": "theanine, agmatine, curcumin - 15 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:1:announcement",
@@ -14,10 +25,10 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "6:30am",
-    "sentAt": "2018-11-23T06:15:00-06:00",
+    "deadline": "8:00am",
+    "sentAt": "2018-11-23T07:15:00-06:00",
     "type": "outbound",
-    "value": "wash - 15 minutes",
+    "value": "wash - 45 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:2:announcement",
@@ -25,10 +36,10 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "7:45am",
-    "sentAt": "2018-11-23T06:30:00-06:00",
+    "deadline": "10:00am",
+    "sentAt": "2018-11-23T08:00:00-06:00",
     "type": "outbound",
-    "value": "meditate - 75 minutes",
+    "value": "10g protein; 10g fat - 120 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:3:announcement",
@@ -36,10 +47,10 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "8am",
-    "sentAt": "2018-11-23T07:45:00-06:00",
+    "deadline": "4:00pm",
+    "sentAt": "2018-11-23T10:00:00-06:00",
     "type": "outbound",
-    "value": "hack on sudomesh - 15 minutes",
+    "value": "be prepared to stop eating - 360 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:4:announcement",
@@ -47,10 +58,10 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "8:15am",
-    "sentAt": "2018-11-23T08:00:00-06:00",
+    "deadline": "6:00pm",
+    "sentAt": "2018-11-23T16:00:00-06:00",
     "type": "outbound",
-    "value": "hack on dat; hyperledger fabric - 15 minutes",
+    "value": "stop eating - 120 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:5:announcement",
@@ -58,156 +69,13 @@ Array [
     "value": true,
   },
   Object {
-    "deadline": "8:30am",
-    "sentAt": "2018-11-23T08:15:00-06:00",
+    "deadline": "8:00pm",
+    "sentAt": "2018-11-23T18:00:00-06:00",
     "type": "outbound",
-    "value": "get ready leave - 15 minutes",
+    "value": "write - 120 minutes",
   },
   Object {
     "key": "2018-11-23:tasks:6:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "8:55am",
-    "sentAt": "2018-11-23T08:30:00-06:00",
-    "type": "outbound",
-    "value": "catch the 8:55am C train towards 168 St - 25 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:7:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "10:15am",
-    "sentAt": "2018-11-23T08:55:00-06:00",
-    "type": "outbound",
-    "value": "hack on infrastructure - 80 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:8:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "11am",
-    "sentAt": "2018-11-23T10:15:00-06:00",
-    "type": "outbound",
-    "value": "hack on ghostwriter - 45 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:9:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "12pm",
-    "sentAt": "2018-11-23T11:00:00-06:00",
-    "type": "outbound",
-    "value": "plan lunch - 60 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:10:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "1pm",
-    "sentAt": "2018-11-23T12:00:00-06:00",
-    "type": "outbound",
-    "value": "eat lunch - 60 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:11:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "1:05pm",
-    "sentAt": "2018-11-23T13:00:00-06:00",
-    "type": "outbound",
-    "value": "log lunch - 5 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:12:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "1:45pm",
-    "sentAt": "2018-11-23T13:05:00-06:00",
-    "type": "outbound",
-    "value": "hack on stu - 40 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:13:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "2:45pm",
-    "sentAt": "2018-11-23T13:45:00-06:00",
-    "type": "outbound",
-    "value": "participate in PLP - 60 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:14:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "5:00pm",
-    "sentAt": "2018-11-23T14:45:00-06:00",
-    "type": "outbound",
-    "value": "hack on anki - 135 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:15:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "5:15pm",
-    "sentAt": "2018-11-23T17:00:00-06:00",
-    "type": "outbound",
-    "value": "form a plan for eating dinner - 15 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:16:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "6:30pm",
-    "sentAt": "2018-11-23T17:15:00-06:00",
-    "type": "outbound",
-    "value": "eat dinner - 75 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:17:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "7:30pm",
-    "sentAt": "2018-11-23T18:30:00-06:00",
-    "type": "outbound",
-    "value": "go home - 60 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:18:announcement",
-    "type": "set",
-    "value": true,
-  },
-  Object {
-    "deadline": "8:00pm",
-    "sentAt": "2018-11-23T19:30:00-06:00",
-    "type": "outbound",
-    "value": "write - 30 minutes",
-  },
-  Object {
-    "key": "2018-11-23:tasks:19:announcement",
     "type": "set",
     "value": true,
   },
@@ -218,7 +86,7 @@ Array [
     "value": "draw - 20 minutes",
   },
   Object {
-    "key": "2018-11-23:tasks:20:announcement",
+    "key": "2018-11-23:tasks:7:announcement",
     "type": "set",
     "value": true,
   },
@@ -229,7 +97,7 @@ Array [
     "value": "wash - 20 minutes",
   },
   Object {
-    "key": "2018-11-23:tasks:21:announcement",
+    "key": "2018-11-23:tasks:8:announcement",
     "type": "set",
     "value": true,
   },
@@ -240,7 +108,7 @@ Array [
     "value": "meditate - 20 minutes",
   },
   Object {
-    "key": "2018-11-23:tasks:22:announcement",
+    "key": "2018-11-23:tasks:9:announcement",
     "type": "set",
     "value": true,
   },
@@ -251,7 +119,7 @@ Array [
     "value": "read a book - 30 minutes",
   },
   Object {
-    "key": "2018-11-23:tasks:23:announcement",
+    "key": "2018-11-23:tasks:10:announcement",
     "type": "set",
     "value": true,
   },

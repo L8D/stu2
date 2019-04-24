@@ -6,16 +6,16 @@ Object {
     Array [
       "handling action",
       Object {
-        "deadline": "6:30pm",
+        "deadline": "8:00pm",
         "sentAt": "2018-11-28T18:18:56-05:00",
         "type": "outbound",
-        "value": "eat dinner - 11 minutes",
+        "value": "write - 101 minutes",
       },
     ],
     Array [
       "sending twilio message",
       Object {
-        "body": "eat dinner - 11 minutes",
+        "body": "write - 101 minutes",
         "from": "+15125807478",
         "to": "+18324540603",
       },
@@ -23,7 +23,7 @@ Object {
     Array [
       "successfully sent twilio message",
       Object {
-        "body": "eat dinner - 11 minutes",
+        "body": "write - 101 minutes",
         "from": "+15125807478",
         "to": "+18324540603",
       },
@@ -31,7 +31,7 @@ Object {
     Array [
       "handling action",
       Object {
-        "key": "2018-11-28:tasks:17:announcement",
+        "key": "2018-11-28:tasks:6:announcement",
         "type": "set",
         "value": true,
       },
@@ -39,19 +39,19 @@ Object {
   ],
   "redisGetCalls": Array [
     Array [
-      "2018-11-28:tasks:17:announcement",
+      "2018-11-28:tasks:6:announcement",
     ],
   ],
   "redisSetCalls": Array [
     Array [
-      "2018-11-28:tasks:17:announcement",
+      "2018-11-28:tasks:6:announcement",
       true,
     ],
   ],
   "twilioCalls": Array [
     Array [
       Object {
-        "body": "eat dinner - 11 minutes",
+        "body": "write - 101 minutes",
         "from": "+15125807478",
         "to": "+18324540603",
       },
